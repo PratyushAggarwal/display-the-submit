@@ -1,0 +1,63 @@
+#left{
+	display: inline-block;
+	margin-top: 0px;
+	width: 65vw;
+	height: 97vh;
+	vertical-align: top;
+	align-content: center;
+	margin: auto;
+	border-right: 2px solid grey;
+}
+
+#left h1{
+	text-align: center;
+	margin-top: 20vh;
+	font-size: 2rem;
+}
+#left table{
+	margin: auto;
+	margin-top: 5vh;
+	width: 60%;
+	font-size: 1.2rem;
+}
+tr{
+	height: 13vh;
+}
+table input{
+	padding: 3px;
+	font-size: 1.2rem;
+	height: 1.5rem;
+	width: 50%;
+	margin-left: 8vw;
+}
+#save{
+	display: block;
+	margin: auto;
+	margin-top: 7vh;
+	font-size: 1.4rem;
+	padding: 0.5rem;
+}
+#save:hover{
+	box-shadow:0px 0px 25px 10px lightgrey;
+}
+
+#right{
+	width: 32.4vw;
+	height: 96vh;
+	display: inline-block;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 2vh;
+	overflow: auto;
+}
+#right div{
+	width: 100%;
+}
+#right div:nth-child(even){
+	background-color: lightgrey;
+}
+
+.green{
+	background-color: lightgreen;
+	color: white;
+}
